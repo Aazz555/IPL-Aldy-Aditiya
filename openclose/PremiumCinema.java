@@ -1,12 +1,11 @@
 package openclose;
 
-public class PremiumCinema {
-    public int price;
-    public PremiumCinema(double price) {
-        this.price = price;
-    }
-    @Override
-    Double calculateAdminFee() {
-        return this.price * 12 / 100;
+public class PremiumCinema extends Cinema {
+    public PremiumCinema(Double price) { 
+        this.price = price; 
+        }
+        @Override 
+        Double calculateAdminFee() { 
+            return price * 20 / 100;
     }
 }
