@@ -13,9 +13,4 @@ public class Motorcycle implements VehicleInterface{
     public void refuel (){
 
     }
-    @Override
-    public void openDoors(){
-
-    }
-    
 }
