@@ -9,4 +9,5 @@ public class FitNesseExpediter implements ResponseSender {
     private long requestProgress;
     private long requestParsingDeadline;
     private boolean hasError;
+    
 }
